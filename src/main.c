@@ -6,6 +6,16 @@ double getSquareRoot(double a){
  return sqrt(a); 
 }
 
+
+
+
+
+
+
+
+
+// Raise a conflict
+
 double sub(double a , double b){
 return a - b; 
 }
