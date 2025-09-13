@@ -5,10 +5,25 @@
 double getSquareRoot(double a){
  return sqrt(a); 
 }
+
+
+double add(double a , double b){
+return a + b; 
+}
+
+double getMax(double a , double b){
+return a >= b ? a : b; 
+}
+
+
 int main(void){
 
 printf("Hello World!"); 
 
 printf("Square root of 100 = %0.3f",getSquareRoot(100)); //10.000
+
+printf("Summation is ",add(3000,230.7)); //3230.70
+
+printf("Maximum is ",getMax(3000,230.7)); //3000.00
 
 return 0; }
