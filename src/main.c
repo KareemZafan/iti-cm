@@ -7,6 +7,33 @@ double getSquareRoot(double a){
 }
 
 
+long mod(long a, long b){
+ return a % b;  
+}
+
+double avg(double a, double b){
+ return (a + b)/2.0;  
+}
+
+
+double abs(double a){
+ return a > 0 ? a : -a; }
+
+
+double sub(double a , double b){
+return a - b; 
+}
+
+double div(double a , double b){
+ if(b !=0) return a/b;  
+ return 0; 
+}
+
+double mul(double a , double b){
+ return a * b; 
+}
+
+
 double add(double a , double b){
 return a + b; 
 }
